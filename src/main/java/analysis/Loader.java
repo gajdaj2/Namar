@@ -3,7 +3,7 @@ package analysis;
 import java.io.*;
 
 public class Loader {
-    
+
     public String ReadFile() throws IOException {
         File file = new File("logs\\app.log");
         BufferedReader br = null;
