@@ -5,7 +5,7 @@
     <test name = "TestPeformance">
         <classes>
             <class name = "integration.InegrationTests"/>
-            <class name="analysis.FileTests"/>
+            <class name="builder.MessageBuilderTest"/>
         </classes>
     </test>
 </suite>

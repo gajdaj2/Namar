@@ -16,11 +16,11 @@ import java.util.HashMap;
 public class MessageBuilder {
 
 
-    private URIBuilder builder;
-    private HashMap<String, String> parameters;
-    private URI uri;
-    private HttpGet get;
-    private HttpPost post;
+    public URIBuilder builder;
+    public HashMap<String, String> parameters;
+    public URI uri;
+    public HttpGet get;
+    public HttpPost post;
 
     public MessageBuilder createMessageWithProtocol(HttpMethod method) {
         switch (method) {
